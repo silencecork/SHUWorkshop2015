@@ -56,6 +56,7 @@ proguard/
 
 .project
 .classpath
+.settings/
 project.properties
 proguard-project.txt
-.metadata
+.metadata/
