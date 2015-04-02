@@ -1,41 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
     <title>Shuworkshop2015 by silencecork</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
-
   <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/silencecork/SHUWorkshop2015">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/silencecork/SHUWorkshop2015/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/silencecork/SHUWorkshop2015/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
 
-    <header>
-      <div class="container">
-        <h1>Shuworkshop2015</h1>
-        <h2>SHUWorkshop 2015</h2>
+    <div class="wrapper">
 
-        <section id="downloads">
-          <a href="https://github.com/silencecork/SHUWorkshop2015/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/silencecork/SHUWorkshop2015/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/silencecork/SHUWorkshop2015" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+      <section>
+        <div id="title">
+          <h1>Shuworkshop2015</h1>
+          <p>SHUWorkshop 2015</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/silencecork">silencecork</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
 
-    <div class="container">
-      <section id="main_content">
         <h3>
 <a id="歡迎來到世新大學2015-android製作教學課程" class="anchor" href="#%E6%AD%A1%E8%BF%8E%E4%BE%86%E5%88%B0%E4%B8%96%E6%96%B0%E5%A4%A7%E5%AD%B82015-android%E8%A3%BD%E4%BD%9C%E6%95%99%E5%AD%B8%E8%AA%B2%E7%A8%8B" aria-hidden="true"><span class="octicon octicon-link"></span></a>歡迎來到世新大學2015 Android製作教學課程</h3>
 
-<p>本次課程著重在網路程式設計、彈性化AdapterView以及前後端整合。本次課程需要您先觀看過去年的教學影片。若您熟知git，可使用以下指令直接取得本次課程相關的專案程式碼與講義</p>
+<p>本次課程著重在網路程式設計、彈性化AdapterView以及前後端整合。本次課程需要您先觀看過去年的教學影片。若您熟知git與指令模式，可使用以下指令直接取得本次課程相關的專案程式碼與講義</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<pre><code>$ mkdir workshop2015
+$ cd workshop2015
+$ git clone https://github.com/silencecork/SHUWorkshop2015.git
 </code></pre>
 
 <h3>
@@ -46,22 +56,36 @@ $ git checkout gh-pages
 <br><a href="https://drive.google.com/file/d/0B4k6spy68e61OFl5UWhYYi00Y2M/view?usp=sharing">前後端整合</a></p>
 
 <h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<a id="課程說明" class="anchor" href="#%E8%AA%B2%E7%A8%8B%E8%AA%AA%E6%98%8E" aria-hidden="true"><span class="octicon octicon-link"></span></a>課程說明</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>第一部份會說明Android如何與Server進行連線，呼叫Server的API並且剖析回傳的JSON，接下來在Android中以客製化的方式呈現出來。
+<br>第二部分會說明如何使用Node.js建立簡單的API Server，並連接MongoDB，依照連入的需求從MongoDB中儲存、刪除、查詢資料。
+<br>第三部分會做整合，讓自己的的Android App與自己寫的Server連接</p>
 
 <h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<a id="事前準備" class="anchor" href="#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%99" aria-hidden="true"><span class="octicon octicon-link"></span></a>事前準備</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>本次課程會使用到的工具如下：
+<br><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">JDK</a>
+<br><a href="https://eclipse.org/downloads/">Eclipse</a> (不是Android Studio)
+<br><a href="https://dl-ssl.google.com/android/eclipse/">ADT</a>
+<br><a href="https://nodejs.org/">Node.js</a></p>
+
+<h3>
+<a id="使用到第三方函式庫" class="anchor" href="#%E4%BD%BF%E7%94%A8%E5%88%B0%E7%AC%AC%E4%B8%89%E6%96%B9%E5%87%BD%E5%BC%8F%E5%BA%AB" aria-hidden="true"><span class="octicon octicon-link"></span></a>使用到第三方函式庫</h3>
+
+<p>本課程中會使用到兩個Open Source的函式庫
+<br><a href="https://android.googlesource.com/platform/frameworks/volley">Volley</a>
+<br><a href="http://square.github.io/picasso/">Picasso</a></p>
+
+<h3>
+<a id="支援與協助" class="anchor" href="#%E6%94%AF%E6%8F%B4%E8%88%87%E5%8D%94%E5%8A%A9" aria-hidden="true"><span class="octicon octicon-link"></span></a>支援與協助</h3>
+
+<p>有任何疑問，可以來信<a href="mailto:justin@silencecork.com">justin@silencecork.com</a></p>
       </section>
-    </div>
 
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
