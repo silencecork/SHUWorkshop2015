@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">操作選擇</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_showtodo">待辦事項清單</string>
+    <string name="title_activity_add_todo">新增待辦事項</string>
+
+</resources>
